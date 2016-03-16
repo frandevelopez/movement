@@ -1,0 +1,130 @@
+/* element styles */
+
+body{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+div{}
+html{}
+h1{}
+h2{
+	margin-top: 0;
+}
+li{
+	display: block;
+	float: left;
+	padding: .3em 2em 0 0;
+	color: white;
+}
+p{}
+ul {
+}
+
+/* class styles */
+
+.brand-name{
+	display: inline;
+	color: white;
+}
+.content {
+	background-color: #E4E0DF;
+}
+.header-wrapper {
+	width: 100%;
+	background-image: url('http://core24fitness.com/wp-content/uploads/2016/02/7-Keys-to-Body-Transformation.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-image {
+	display: table;
+	text-align: center;
+	height: 600px;
+    color: white;
+    width: 100%;
+    text-shadow: 1px 1px grey;
+}
+
+.header-image h2 {
+	display: table-cell;
+	vertical-align: middle;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+.servicios {
+	width: 100%;
+	padding-bottom: 2em;
+}
+.lista-servicios {
+	padding: 0 2em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.team, .centro, .historia {
+	padding: 2em;
+	background-color: white;
+}
+
+.block-name {
+	text-align: center;
+	padding: 2em;
+	display: block;
+}
+.logo {
+	max-width: 80px;
+	padding: .8em 0 0 .8em;
+}
+.logo-container {
+	float: left;
+	display: block;
+	height: 50px;
+}
+.main {}
+.navigation {
+	width: 100%;
+	height: 80px;
+	background-color: rgba(255,90,7,0.5);
+	position: fixed;
+	display: block;
+	box-shadow: 2px 2px 2px rgba(164,164,164,0.4);
+	font-size: .8em;
+}
+.nav-links {
+	position: fixed;
+	top: 12px;
+	right: 10px;
+}
+.service {
+	border: 2px solid #fefefe;
+	margin-top: 2em;
+	padding: 1em;
+	width: 25%;
+}
+.service-title {}
+.service-description {
+	text-align: justify;
+}
+.map {
+	width: 100%;
+	height: 600px;
+	border: 2px solid orange;
+	text-align: center;
+}
+
+.footer {
+	width: 100%;
+	height: 50px;
+	border: 2px solid orange;
+	text-align: center;
+}
+.brand-name-wrapper{
+	position: fixed;
+	top: 20px;
+	left:100px;
+}
+
+/* id styles */
+
+/* responsive styles */
