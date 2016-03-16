@@ -18,6 +18,10 @@ li{
 	padding: .3em 2em 0 0;
 	color: white;
 }
+
+li:hover {
+	color: #FF7E3D;
+}
 p{}
 ul {
 }
@@ -71,6 +75,7 @@ ul {
 	text-align: center;
 	padding: 2em;
 	display: block;
+	color: #FF7E3D;
 }
 .logo {
 	max-width: 80px;
@@ -85,7 +90,7 @@ ul {
 .navigation {
 	width: 100%;
 	height: 80px;
-	background-color: rgba(255,90,7,0.5);
+	background-color: rgba(85,137,191,0.8);
 	position: fixed;
 	display: block;
 	box-shadow: 2px 2px 2px rgba(164,164,164,0.4);
@@ -102,7 +107,9 @@ ul {
 	padding: 1em;
 	width: 25%;
 }
-.service-title {}
+.service-title {
+
+}
 .service-description {
 	text-align: justify;
 }
